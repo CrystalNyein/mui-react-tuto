@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ButtonForTuto = () => {
+const MakeStylesTuto = () => {
   const classes = useStyles();
   return (
     <React.Fragment>
@@ -37,4 +37,4 @@ const ButtonForTuto = () => {
   );
 };
 
-export default ButtonForTuto;
+export default MakeStylesTuto;
