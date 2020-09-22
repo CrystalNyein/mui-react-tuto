@@ -19,6 +19,11 @@ const theme = createMuiTheme({
     primary: purple,
     secondary: green,
   },
+  typography: {
+    h1: {
+      fontSize: "1em",
+    },
+  },
 });
 const TypographyTuto = () => {
   const classes = useStyles();
